@@ -1,5 +1,5 @@
 {% set name = "blark" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/klauer/blark/archive/v{{ version }}.tar.gz
-  sha256: 9f97e4be82decb4a89b43fa1ea5ed228152db40bc0ea0a1c8a6fab24532e8d9f
+  sha256: f8aaac3df31f781e09925abaab149c58ef2348f36f890336456007096d2abcb9
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - blark = blark.__main__:main
 
@@ -37,7 +37,7 @@ about:
   license: GPL-2.0
   license_family: GPL
   license_file: LICENSE
-  summary: 'Beckhoff TwinCAT ST (IEC 61131-3) code parsing in Python using Lark'
+  summary: Beckhoff TwinCAT ST (IEC 61131-3) code parsing in Python using Lark
 
 extra:
   recipe-maintainers:
