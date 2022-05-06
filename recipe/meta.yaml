@@ -1,5 +1,5 @@
 {% set name = "blark" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/klauer/blark/archive/v{{ version }}.tar.gz
-  sha256: 6ea0947e98c4efc8bf920e3edd58f6144052b9f0aca4cce196ed0bc392b28049
+  sha256: 803a17a91adf0777202759ce5dbc82c5848fed22e19384221b5e92740b077ad9
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
   run:
     - python >=3.6
     - pytmc
-    - lark-parser
+    - lark
 
 test:
   imports:
