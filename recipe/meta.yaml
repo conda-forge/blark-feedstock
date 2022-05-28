@@ -1,5 +1,5 @@
 {% set name = "blark" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/klauer/blark/archive/v{{ version }}.tar.gz
-  sha256: 803a17a91adf0777202759ce5dbc82c5848fed22e19384221b5e92740b077ad9
+  sha256: 3ac85981b7478196c5d4f6e65de367965632a5608e06b67850de65e7e81f924c
 
 build:
   noarch: python
