@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/blark-feedstock
 
 Home: https://github.com/klauer/blark
 
-Package license: GPL-2.0
+Package license: GPL-2.0-only
 
 Summary: Beckhoff TwinCAT ST (IEC 61131-3) code parsing in Python using Lark
 
