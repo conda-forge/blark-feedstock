@@ -24,7 +24,7 @@ requirements:
     - python >=3.9
     - lxml
     - lark >=1.0
-    - typing-extensions  # [py<311]
+    - typing-extensions
 
 test:
   imports:
