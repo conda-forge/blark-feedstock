@@ -22,8 +22,9 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - pytmc
+    - lxml
     - lark >=1.0
+    - typing-extensions  # [py<311]
 
 test:
   imports:
