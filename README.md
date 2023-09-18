@@ -145,6 +145,3 @@ Feedstock Maintainers
 
 * [@klauer](https://github.com/klauer/)
 
-
-<!-- dummy commit to enable rerendering -->
-
