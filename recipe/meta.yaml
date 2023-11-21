@@ -22,8 +22,9 @@ requirements:
     - pip
   run:
     - python >=3.9
-    - lxml
     - lark >=1.0
+    - lxml
+    - packaging
     - typing-extensions
 
 test:
