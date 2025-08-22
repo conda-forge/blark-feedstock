@@ -1,5 +1,5 @@
 {% set name = "blark" %}
-{% set version = "0.8.2" %}
+{% set version = "0.8.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/b/blark/blark-{{ version }}.tar.gz
-  sha256: 9b6a060b810bea53b257c1d303d7a2689a54b54e225d22e4416f204db4229bee
+  sha256: 0d6b33ea92a691d6eba529208fff7aec41778a9b39f700fec53090a5db506428
 
 build:
   noarch: python
